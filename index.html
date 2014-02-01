@@ -18,12 +18,16 @@
 		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
 
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="lib/css/zenburn.css">		
 
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 		</script>
+
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -34,7 +38,7 @@
 
 		<div class="reveal"><div class="slides">
 
-			<section>
+			<section data-background="">
 				<h3>Alex Lenail</h3>
 				<h3>Tufts University '16</h3>
 				<h3>Computer Science</h3>
@@ -43,9 +47,7 @@
 				<h3>Matt Campbell, Tim Culver, Mike Dewberry</h3>
 			</section>
 
-
-			<section>
-				<img src="img/2.png">
+			<section data-background="img/2.png">
 				Conceptual Design
 
 				Vasari
@@ -53,8 +55,7 @@
 				DesignScript				
 			</section>
 
-			<section>
-				<img src="img/3.png">
+			<section data-background="img/3.png">
 				CoffeeScript
 				Scene.js
 				Raphael.js
@@ -70,14 +71,13 @@
 			</section>
 
 
-			<section>
-				<img src="img/4.png">
+			<section data-background="img/4.png">
+
 				
 			</section>
 
 
-			<section>
-				<img src="img/5.png">
+			<section data-background="img/5.png">
 				Takeaways:
 
 				Running a large organization is a hard problem
@@ -88,10 +88,6 @@
 
 
 		</div></div>
-
-
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
 
 		<script>
 
